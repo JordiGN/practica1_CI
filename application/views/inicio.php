@@ -6,9 +6,9 @@
 </head>
 <body>
 	<?php 
-		echo "Hola mundo <br>";
+		echo "<h1>Hola mundo</h1> <br>";
 		echo "Hoy es: ".date("d-m-y");
-		echo "Bienvenido: ".$nombre
+		echo "<h2>Bienvenido: </h2>".$nombre
 	 ?>
 </body>
 </html>
