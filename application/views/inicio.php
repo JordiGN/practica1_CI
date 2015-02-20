@@ -1,7 +1,6 @@
-
+<div class="container" id="inicio">
     <?php 
     include "/secciones/cabecera.php";
-
 
 		echo "<h1>Hola mundo</h1> <br>";
 		echo "Hoy es: ".date("d-m-y");
@@ -17,4 +16,13 @@
 
   include "/secciones/pie.php";
 	 ?>
+<div class="row">
+	<div class="col-md-8 col-sm-4 rojo">
+		<h3>Hi world</h3>
+	</div>	 	
+	<div class="col-md-4 col-sm-8 azul">
+		<h1>Holi!</h1>
+	</div>
+</div>
 
+</div>
